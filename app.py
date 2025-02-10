@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import requests
-from keras.models import load_model
+from keras.models import load_model # type: ignore
 import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
